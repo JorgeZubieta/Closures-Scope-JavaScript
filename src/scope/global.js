@@ -18,14 +18,14 @@ anotherFunction();
 
 // Tipico error al declarar una varaibel lo cual es una "Mala practica"!
 const helloWorld = () => {
-    globalVar = 'Im Global';
+    globalVar = 'Im Global 1';
 }
 helloWorld();
 console.log(globalVar);
 
 // Error de doble asignacion mala practica
 const anotherFunction = () => {
-    var localVar = globalVar = 'Im Super basket ball dancer';
+    var localVar = globalVar = 'Im Global 2';
 }
 anotherFunction()
 console.log(globalVar);
