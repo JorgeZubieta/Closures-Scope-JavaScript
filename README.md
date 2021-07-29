@@ -1,6 +1,8 @@
 ## Closures-Scope-JavaScript
 #curso-scope-closure 
 
-- Scope global
-- Scope local
+- Global scope
+- Local scope
 - Function scope
+- Block scope
+- Closure - example moneybox
