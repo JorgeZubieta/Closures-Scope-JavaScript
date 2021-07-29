@@ -1,14 +1,14 @@
 // var variable que podremos acceder todo el tiempo ya que esta asignada de forma global
 var hello = 'Hello var';
 var hello = 'Hello var +';
-// la segunda var pisa el valor de la primera
 
+// con LET y CONST no podremos reasignar el valor de la primera, aca se produce un error de valor ya asignado
 let world = 'hello let';
 let world = 'Hello let2';
-
-const helloWorld = 'Hello const';
-// const helloWorld = 'Hello contt2';
 // la segunda const produce un error porque no se puede reasignar otro valor
+const helloWorld = 'Hello const';
+const helloWorld = 'Hello contt2';
+
 const anotherFunction = () => {
     console.log(hello);
     console.log(world);
