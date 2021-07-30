@@ -6,3 +6,8 @@
 - Function scope
 - Block scope
 - Closure - example moneybox
+- Lexical closure
+- Private closure
+- Loops
+- Hositing
+- Debugging
